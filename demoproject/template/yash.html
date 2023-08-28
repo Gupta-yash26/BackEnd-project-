@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account_From</title>
+</head>
+
+<body style="background-color:rgb(117, 58, 254) ">
+    <div class="container mt-5" style="text-align: center;">
+        <form class="col-6 mx-auto card p-3 shadoe-lg" method="post" action="../demo/">
+            {% csrf_token %}
+            <h1>ACCOUNT_DETAILS</h1>
+            <Br>
+            <label> name</label><br>
+            <input type="textbox" name="holder"><br><br>
+            <label>father_name</label><br>
+            <input type="textbox" name="fathername"><br><br>
+            <label> mobile</label><br>
+            <input type="textbox" name="number"><br><br>
+            <label> Account</label><br>
+            <input type="textbox" name="account"><br><br>
+            <label> IFSC</label><br>
+            <input type="textbox" name="code"><br><br>
+            <label> Branch</label><br>
+            <input type="textbox" name="address"><br><br>
+            <label> Passbook</label><br>
+            <input type="file" name="image"><br><br>
+
+            <input type="submit" value="submit"><br><br>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
